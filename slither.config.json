@@ -1,0 +1,5 @@
+{
+  "detectors_to_run": "reentrancy-eth,reentrancy-no-eth,reentrancy-unlimited-gas,arbitrary-send-erc20,arbitrary-send-eth,protected-vars,shadowing-state,uninitialized-state,uninitialized-storage,controlled-delegatecall,unchecked-transfer",
+  "filter_paths": "(mocks/|interfaces/)",
+  "compile_force_framework": "hardhat"
+}
